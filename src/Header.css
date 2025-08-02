@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    font-family: 'Poppins';
+    border: border-box;
+}
+
+.header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #0b1736;
+    color: rgb(5, 131, 215);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    justify-content: space-between;
+}
+
+.header__logo {
+    height: 60px;
+    align-items: left;
+    width: 100px;
+    object-fit: contain;
+    margin: 0 10px;
+    margin-top: 10px;
+}
+
+
+.border {
+    border: 3px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo p {
+    color: #defcff;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-menu a {
+    text-decoration: none;
+    /* Remove underline */
+    color: white;
+    /* Set link color */
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-menu hr {
+    border: none;
+    width: 80px;
+    height: 3px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.nav-login-cart {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.nav-login-cart a {
+    text-decoration: none;
+    /* Remove underline */
+    color: rgb(6, 6, 6);
+    /* Set link color */
+}
+
+.nav-login-cart button {
+    width: 107px;
+    height: 48px;
+    outline: none;
+    border: 1px solid #858585;
+    border-radius: 75px;
+    color: #040404;
+    font-size: 20px;
+    font-weight: 500;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+
+.nav-login-cart button:active {
+    background: #8f8f8f;
+}
+
+.nav-login-cart .nav-cart-count {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: #fbfbfb;
+    color: rgb(2, 2, 2);
+}
+
+.s span {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -85px;
+    margin-left: 15px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: #fbfbfb;
+    color: rgb(2, 2, 2);
+}
+
+.s img {
+    position: relative;
+    /* or absolute, fixed, etc. */
+    top: -20px;
+    /* Adjust the top position as needed */
+    left: -14px;
+    /* Adjust the left position as needed */
+}

@@ -1,0 +1,39 @@
+.social-media-details {
+    text-align: center;
+    background-image: url("https://img.freepik.com/premium-photo/set-various-social-media-blocks-blue-painted-wall_23-2147841215.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1710806400&semt=ais");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.social-media-details h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.social-media-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media-details ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media-details ul li:last-child {
+    margin-right: 0;
+}
+
+.social-media-details a {
+    color: #333;
+    text-decoration: none;
+}
+
+.social-media-details i {
+    font-size: 24px;
+}
+
+/* Font Awesome Icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');

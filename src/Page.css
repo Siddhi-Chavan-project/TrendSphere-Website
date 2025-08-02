@@ -1,0 +1,96 @@
+.product-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.product-detail img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.product-detail button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next row */
+    justify-content: space-around;
+    /* Distribute items evenly across the row */
+    gap: 20px;
+    /* Add gap between items */
+}
+
+.product-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: calc(33.33% - 20px);
+    /* Calculate width for three items per row with gap */
+    max-width: 350px;
+    /* Limit maximum width for larger screens */
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-item img {
+    width: 100%;
+    height: 300px;
+    max-height: 400px;
+    max-width: 400px;
+    /* Set the desired height */
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the entire space */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.product-item:hover {
+    transform: translateY(-5px);
+}
+
+.product-info {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.product-info h3 {
+    margin-bottom: 5px;
+}
+
+.product-info button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-list button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

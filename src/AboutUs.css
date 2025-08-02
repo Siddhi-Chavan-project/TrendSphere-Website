@@ -1,0 +1,47 @@
+.about-us {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-image: url('./ab.png');
+    /* Adjust the path and filename */
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    color: rgb(0, 0, 0);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-us h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-us h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.about-us p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.about-us ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.about-us li {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Additional styles can be added as needed */

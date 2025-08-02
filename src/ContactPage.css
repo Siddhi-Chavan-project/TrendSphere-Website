@@ -1,0 +1,66 @@
+/* ContactPage.css */
+.contact-container {
+    max-width: 1100px;
+
+    margin: 0 auto;
+    padding: 250px;
+    background-image: url('./contact.avif');
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info {
+    width: 45%;
+    color: rgb(0, 0, 0);
+    /* Adjust text color for better visibility */
+}
+
+.contact-form-container {
+    width: 45%;
+}
+
+.contact-form {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
